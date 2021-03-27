@@ -1,0 +1,63 @@
+.header
+	display: flex
+	&__main
+		position: relative
+		.logo
+			position: absolute
+			width: 109px
+			height: 36px
+			left: 137px
+			top: 74px
+		.title
+			position: absolute
+			width: 470px
+			left: 145px
+			top: 503px
+			font-family: Montserrat
+			font-size: 54px
+			line-height: 70px
+			color: $primary
+			span
+				background-color: $accent
+				padding: 0 15px 
+				margin-left: -15px
+				font-family: Montserrat
+				color: $light
+		.img
+			padding-left: 384px
+			height: 100%
+			img
+				max-width: 754.84px
+				max-height: 947px
+	&__menu
+		width: 100%
+		padding: 85px 129px 89px 58px
+		background-color: $primary
+		&__cart
+			position: relative
+			&::after
+				content: "2"
+				position: absolute
+				left: 15px
+				bottom: 20px
+				width: 20px
+				height: 20px
+				font-size: 14px
+				text-align: center
+				border-radius: 50%
+				color: #F9FBFF
+				background-color: $accent
+		&__list
+			margin-top: 105px
+			color: $light
+			li
+				margin-bottom: 7px
+				padding: 10px 0
+				&:hover
+					font-weight: 700
+					margin-right: -3px
+					cursor: pointer
+
+
+
+
