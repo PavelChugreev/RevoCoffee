@@ -3,35 +3,44 @@
     background: linear-gradient(to right, $light 0% 1076px, #F2F2F2 1076px 100%)
     .tabs
         position: relative
-        margin:65px 0 0 261px
+        margin:64px 0 0 260px
         padding:64px 66px 64px 299px
         max-width: 429px
         text-align: left
         background-color: #fff
+        border: 1px solid $light
         &__buttons
             position: absolute
             left: 100%
             top: 0
             height: 100%
             &-btn
-                font-family: Montserrat
-                font-weight: 900
-                font-size: 30px
-                line-height: 34px
-                text-align: center
-                vertical-align: middle
+                position: relative
                 width: 88px
                 height: 33.333%
-                color: #415167
-                mix-blend-mode: normal
-                opacity: 0.3
+                background-color: $light
+                cursor: pointer
+                span
+                    position: absolute
+                    top: 50%
+                    left: 50%
+                    transform: translateY(-50%) translateX(-50%)   
+                    font-family: Montserrat
+                    font-weight: 900
+                    font-size: 30px
+                    color: #415167
+                    opacity: 0.3
             .active
                 background-color: #fff
-                opacity: 1
+                span
+                    opacity: 1
         &__img
             position: absolute
             top: 50px
             left: -255px
+            img
+                max-width: 463px
+                max-height: 409px
         &__price
             margin: 0 0 7px 1px
             font-weight: 600
@@ -74,7 +83,6 @@
             border-radius: 19px
             font-weight: bold
             color: #F9FBFF
-
         &__adv
             display: inline-block
             margin-left: 119px

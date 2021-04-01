@@ -1,0 +1,22 @@
+.slider
+	position: relative
+	margin: 69px 0 0 130px
+	.next-btn, .prev-btn
+		position: absolute
+		left: 1158px
+		top: 50%
+		transform: translateY(-50%)
+		padding: 12px 10px 10px 10px
+		background-color: $accent
+		border-radius: 100%
+		z-index: 10
+		cursor: pointer
+	.prev-btn
+		left: -50px
+		transform: scale(-1, 1) translateY(-50%)
+	&__wrapper
+		display: flex
+		width: 4000px
+		transition: 1s all
+	.slide
+		margin-right: 30px

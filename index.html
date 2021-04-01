@@ -63,7 +63,7 @@
         <section class="favorite section">
             <div class="section__subtitle">Choose Your Favorite</div>
             <div class="section__title">CHUẨN GU ĐÚNG VỊ</div>
-            <div class="slider">
+            <div class="slider slider_favorite">
                 <div class="prev-btn">
                     <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M16.1613 0.255668C15.8344 -0.0852227 15.2902 -0.0852227 14.9518 0.255668C14.6248 0.585042 14.6248 1.13323 14.9518 1.46184L21.0848 7.6401H0.846745C0.374976 7.64086 0 8.01861 0 8.49386C0 8.96911 0.374976 9.35914 0.846745 9.35914H21.0848L14.9518 15.5259C14.6248 15.8668 14.6248 16.4157 14.9518 16.7443C15.2902 17.0852 15.8351 17.0852 16.1613 16.7443L23.7462 9.10347C24.0846 8.77409 24.0846 8.22591 23.7462 7.8973L16.1613 0.255668Z" fill="#F9FBFF"/>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="slider__wrapper">
                     <div class="slide">
-                        <div class="product">
+                        <div class="product product_row">
                             <img class="product__img" src="./src/img/favorite/morn.png" alt="morning">
                             <div class="product__info">
                                 <div class="product__info__price">99.000</div>
@@ -86,7 +86,7 @@
                                 <div class="product__info__adv">CHI TIẾT</div>
                             </div>
                         </div>
-                        <div class="product">
+                        <div class="product product_row">
                             <img class="product__img" src="./src/img/favorite/orig.png" alt="origin">
                             <div class="product__info">
                                 <div class="product__info__price">139.000</div>
@@ -98,7 +98,7 @@
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="product">
+                        <div class="product product_row">
                             <img class="product__img" src="./src/img/favorite/every.png" alt="everyday">
                             <div class="product__info">
                                 <div class="product__info__price">85.000</div>
@@ -109,7 +109,7 @@
                                 <div class="product__info__adv">CHI TIẾT</div>
                             </div>
                         </div>
-                        <div class="product">
+                        <div class="product product_row">
                             <img class="product__img" src="./src/img/favorite/damda.png" alt="damda">
                             <div class="product__info">
                                 <div class="product__info__price">75.000</div>
@@ -121,7 +121,7 @@
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="product">
+                        <div class="product product_row">
                             <img class="product__img" src="./src/img/favorite/orig.png" alt="origin">
                             <div class="product__info">
                                 <div class="product__info__price">139.000</div>
@@ -131,7 +131,7 @@
                                 <div class="product__info__adv">CHI TIẾT</div>
                             </div>
                         </div>
-                        <div class="product">
+                        <div class="product product_row">
                             <img class="product__img" src="./src/img/favorite/every.png" alt="everyday">
                             <div class="product__info">
                                 <div class="product__info__price">85.000</div>
@@ -144,7 +144,7 @@
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="product">
+                        <div class="product product_row">
                             <img class="product__img" src="./src/img/favorite/morn.png" alt="morning">
                             <div class="product__info">
                                 <div class="product__info__price">99.000</div>
@@ -154,7 +154,7 @@
                                 <div class="product__info__adv">CHI TIẾT</div>
                             </div>
                         </div>
-                        <div class="product">
+                        <div class="product product_row">
                             <img class="product__img" src="./src/img/favorite/orig.png" alt="origin">
                             <div class="product__info">
                                 <div class="product__info__price">139.000</div>
@@ -172,35 +172,100 @@
         <section class="gift section">
             <div class="section__subtitle">Best Gift For Best Friend</div>
             <div class="section__title">GIFTSET</div>
-            <div class="tabs">
-                <div class="tabs__buttons">
-                    <div class="tabs__buttons-btn active">1</div>
-                    <div class="tabs__buttons-btn">2</div>
-                    <div class="tabs__buttons-btn">3</div>
+        </section>
+        <section class="combo section">
+            <div class="section__subtitle">Your Personalized Coffee</div>
+            <div class="section__title">COMBO PHIN PHÊ</div>
+            <div class="slider slider_combo">
+                <div class="prev-btn">
+                    <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.1613 0.255668C15.8344 -0.0852227 15.2902 -0.0852227 14.9518 0.255668C14.6248 0.585042 14.6248 1.13323 14.9518 1.46184L21.0848 7.6401H0.846745C0.374976 7.64086 0 8.01861 0 8.49386C0 8.96911 0.374976 9.35914 0.846745 9.35914H21.0848L14.9518 15.5259C14.6248 15.8668 14.6248 16.4157 14.9518 16.7443C15.2902 17.0852 15.8351 17.0852 16.1613 16.7443L23.7462 9.10347C24.0846 8.77409 24.0846 8.22591 23.7462 7.8973L16.1613 0.255668Z" fill="#F9FBFF"/>
+                    </svg> 
                 </div>
-                <div class="tabs__img">
-                    <img src="./src/img/gift.png" alt="gift">
+                <div class="next-btn">
+                    <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.1613 0.255668C15.8344 -0.0852227 15.2902 -0.0852227 14.9518 0.255668C14.6248 0.585042 14.6248 1.13323 14.9518 1.46184L21.0848 7.6401H0.846745C0.374976 7.64086 0 8.01861 0 8.49386C0 8.96911 0.374976 9.35914 0.846745 9.35914H21.0848L14.9518 15.5259C14.6248 15.8668 14.6248 16.4157 14.9518 16.7443C15.2902 17.0852 15.8351 17.0852 16.1613 16.7443L23.7462 9.10347C24.0846 8.77409 24.0846 8.22591 23.7462 7.8973L16.1613 0.255668Z" fill="#F9FBFF"/>
+                    </svg>                        
                 </div>
-                <div class="tabs__price">285.000</div>
-                <div class="tabs__title">Giftset "Cà phê phin Việt Nam"</div>
-                <div class="tabs__description">Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được Revo cẩn trọng chọn lựa, rang xay theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự đam mê của người làm cà phê… tạo ra những tách cà phê tinh khiết chỉ dành riêng cho bạn.</div>
-                <div class="tabs__info">
-                    <div class="beans tabs__info-item">
-                        <img src="./src/icons/beans.png" alt="beans">
-                        <span>Loại hạt</span>
-                        <span>Fine Robusta Blend</span>
+                <div class="slider__wrapper">
+                    <div class="slide">
+                        <div class="product product_col">
+                            <img class="product__img" src="./src/img/combo/damda.jpg" alt="morning">
+                            <div class="product__info">
+                                <div class="product__info__price">147.000</div>
+                                <div class="product__info__title">Combo Revo Đậm Đà</div>
+                                <div class="product__info__description">Hàm lượng caffein trong Revo Đậm Đà đủ mạnh để làm bạn tỉnh táo làm việc... </div>
+                                <div class="product__info__buy">MUA NGAY</div>
+                                <div class="product__info__adv">CHI TIẾT</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="mount tabs__info-item">
-                        <img src="./src/icons/mount.png" alt="mount">
-                        <span>Độ cao</span>
-                        <span>700 - 800m</span>
+                    <div class="slide">
+                        <div class="product product_col">
+                            <img class="product__img" src="./src/img/combo/every.png" alt="morning">
+                            <div class="product__info">
+                                <div class="product__info__price">156.000</div>
+                                <div class="product__info__title">Combo Revo Everyday</div>
+                                <div class="product__info__description">Revo Everyday được phối trộn giữa vị đắng của hạt Robusta và hương thơm...</div>
+                                <div class="product__info__buy">MUA NGAY</div>
+                                <div class="product__info__adv">CHI TIẾT</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="product product_col">
+                            <img class="product__img" src="./src/img/combo/honey.png" alt="morning">
+                            <div class="product__info">
+                                <div class="product__info__price">275.000</div>
+                                <div class="product__info__title">Combo Revo Honey</div>
+                                <div class="product__info__description">Honey – trong tên gọi Revo Honey đến từ phương pháp chế biến hạt Arabica... </div>
+                                <div class="product__info__buy">MUA NGAY</div>
+                                <div class="product__info__adv">CHI TIẾT</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="product product_col">
+                            <img class="product__img" src="./src/img/combo/damda.jpg" alt="morning">
+                            <div class="product__info">
+                                <div class="product__info__price">147.000</div>
+                                <div class="product__info__title">Combo Revo Đậm Đà</div>
+                                <div class="product__info__description">Hàm lượng caffein trong Revo Đậm Đà đủ mạnh để làm bạn tỉnh táo làm việc... </div>
+                                <div class="product__info__buy">MUA NGAY</div>
+                                <div class="product__info__adv">CHI TIẾT</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="product product_col">
+                            <img class="product__img" src="./src/img/combo/every.png" alt="morning">
+                            <div class="product__info">
+                                <div class="product__info__price">156.000</div>
+                                <div class="product__info__title">Combo Revo Everyday</div>
+                                <div class="product__info__description">Revo Everyday được phối trộn giữa vị đắng của hạt Robusta và hương thơm...</div>
+                                <div class="product__info__buy">MUA NGAY</div>
+                                <div class="product__info__adv">CHI TIẾT</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="product product_col">
+                            <img class="product__img" src="./src/img/combo/honey.png" alt="morning">
+                            <div class="product__info">
+                                <div class="product__info__price">275.000</div>
+                                <div class="product__info__title">Combo Revo Honey</div>
+                                <div class="product__info__description">Honey – trong tên gọi Revo Honey đến từ phương pháp chế biến hạt Arabica... </div>
+                                <div class="product__info__buy">MUA NGAY</div>
+                                <div class="product__info__adv">CHI TIẾT</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="tabs__buy">MUA NGAY</div>
-                <div class="tabs__adv">CHI TIẾT</div>
             </div>
         </section>
-        <section></section>
+        <footer class="footer">
+            © Revo Coffee Việt Nam - 2018
+        </footer>
     </div>
 
 

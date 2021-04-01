@@ -1,0 +1,29 @@
+.combo
+	position: relative
+	padding: 86px 0 98px 0
+	background: linear-gradient(to right, #F2F2F2 0% 1074px, $primary 1074px 100%)
+	overflow: hidden
+	.section__subtitle
+		margin-left: 9px
+	.section__title
+		margin-left: 7px
+	.slider_combo
+		margin: 64px 0 0 128px
+		.slider
+			max-width: 360px
+	&::after, &::before
+		content: " "
+		position: absolute
+		right: 0px
+		top: 0px
+		width: 110px
+		height: 100%
+		background-color:   $primary
+		opacity: .8
+	&::before
+		left: 0px
+		background-color:  #F2F2F2
+		z-index: 1
+	.slider_combo
+		.next-btn, .prev-btn
+			top: 43%
