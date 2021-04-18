@@ -1,4 +1,4 @@
-# Revo Caffee
+# Revo Coffee
 
 ### [Your personalized coffee](https://pavelchugreev.github.io/RevoCoffee/)
 ![Project preview](./dist/readme.png)
